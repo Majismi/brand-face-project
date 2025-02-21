@@ -1,2 +1,4 @@
 # brand-face-project
- Humans instinctively form impressions based on facial features. In this project, we use the VGG2 model and a collected dataset of U.S. Congress members to measure how “liberal” or “conservative” a face appears.
+ Humans instinctively form impressions based on facial features. In this project, we use the VGG2 model and a collected dataset of U.S. Congress members to measure how “liberal” or “conservative” a face appears. We then apply this model to celebrity faces to predict which ones look more liberal or more conservative. These predictions are used for lab experiments, as well as to label faces for our field study.
+
+The dataset of U.S. Congress members (men and women) was gathered from the Congressional Pictorial Directory provided by the U.S. Government Publishing Office (GPO)(https://www.govinfo.gov/collection/congressional-pictorial-directory). The dataset of celebrities was collected from the Forbes Celebrity List (https://www.forbes.com/celebrities/list/), and we standardized each image by converting the background to white and using portrait photos.
